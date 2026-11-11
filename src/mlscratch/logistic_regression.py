@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def _sigmoid(z: np.ndarray) -> np.ndarray:
     return 1/(1+ np.exp(-z))
 
